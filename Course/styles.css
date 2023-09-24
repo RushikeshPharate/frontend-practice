@@ -1,0 +1,45 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;   
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+nav{
+    background: lightblue;
+    height: 100px;
+    width: 100%;
+}
+
+label.Heading{
+    position: sticky;
+    font-size: 40px;
+    color: darkorchid;
+    font-weight: bold;
+    padding: 5px;
+}
+
+ul{
+    float: right;
+    margin-right: 40px;
+}
+
+li{
+    display: inline-block;
+    line-height: 90px;
+    margin: 0, 8px;
+}
+
+a{
+    color: orange;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 3px, 9px;
+    border-radius: 5px;
+}

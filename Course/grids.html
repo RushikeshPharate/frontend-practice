@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+      <style>
+          body{
+              background-color: black;
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              color: white;
+          }
+          div{
+              background-color: goldenrod;
+              text-align: center;
+              border: solid 2px khaki;
+              padding: 15px;
+              font-size: 1.4em;
+          }
+          .gridContainer{
+              display: grid;
+              grid-template-columns: repeat(4, 2fr);
+              grid-template-rows: repeat(2, 1fr);
+              margin: 3rem;
+              justify-content: center;
+              /* border: solid 4px; */
+              grid-gap: 5px;
+              /* column-gap: 5px; */
+              /* row-gap: 5px; */
+          }
+          .divA{
+              /* grid-column-start: 2;
+              grid-column-end: span 3; */
+              grid-column: 1/span 5;
+          }
+          .divB{
+              /* grid-row-start: 1;
+              grid-row-end: span 3; */
+              grid-row: 2/span 2;
+          }
+          .divC{
+            grid-column: span 3;
+          }
+          
+          .divD{
+              grid-row: span 2;
+          }
+
+          .divH{
+              grid-column: span 5;
+          }
+      </style>
+  </head>
+  <body>
+    <section class="gridContainer">
+      <div class="divA">A</div>
+      <div class="divB">B</div>
+      <div class="divC">C</div>
+      <div class="divD">D</div>
+      <div class="divE">E</div>
+      <div class="divF">F</div>
+      <div class="divG">G</div>
+      <div class="divH">H</div>
+    </section>
+  </body>
+</html>
+    

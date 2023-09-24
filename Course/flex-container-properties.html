@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+      <style>
+          body{
+              background-color: black;
+              color: white;
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          }
+          div{
+              border: solid 3px khaki;
+              padding: 2rem;
+              margin: 10px;
+              text-align: center;
+              line-height: 20px;
+              font-weight: bold
+          }
+          .itemA{
+              background-color: red;
+          }
+          .itemB{
+              background-color: blue;
+          }
+          .itemC{
+              background-color: green;
+          }
+          .itemD{
+              background-color: blueviolet;
+          }
+
+          .wrapper{
+              border: solid 3px wheat;
+              display: flex;
+              height: 15rem;
+              justify-content: space-evenly;
+              align-items: flex-start;
+              /* flex-direction: row;
+              flex-wrap: wrap; */
+              flex-flow: row wrap;
+          }
+      </style>
+  </head>
+  <body>
+    <section class="wrapper">
+      <div class="itemA">A</div>
+      <div class="itemB">B</div>
+      <div class="itemC">C</div>
+      <div class="itemD">D</div>
+    </section>
+  </body>
+</html>
+
